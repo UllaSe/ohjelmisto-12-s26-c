@@ -1,7 +1,3 @@
-# Ohjelmisto 1 - Python harjoitukset
+# Ohjelmisto 1 - Python esimerkit ja harjoitukset
 
-**Ulla Sederlöf**
-
-## Moduuli 1 ja 2
-
-Tein tehtävät 1 ja 2.
+**UllaSe & mattpe**
