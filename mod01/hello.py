@@ -1,5 +1,5 @@
 # tämä on esimmäinen koodini
-print('Moikka maailm, nimeni on Ulla!!')
+print('Moikka maailma, nimeni on Ulla!!')
 print('Kiva nähdä')
 
 name = input('Mikä sinun nimesi on: ')
