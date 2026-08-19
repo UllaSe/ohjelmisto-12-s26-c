@@ -1,3 +1,3 @@
 # Ohjelmisto 1 - Python esimerkit ja harjoitukset
 
-**UllaSe & mattpe**
+ Opettajien github-tunnukset: **UllaSe & mattpe**
