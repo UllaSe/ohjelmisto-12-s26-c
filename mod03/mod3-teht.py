@@ -28,6 +28,8 @@ A = a * b
 print(f'Suorakulmion piiri on: {p:.2f} ja pinta-ala {A:.2f}')
 print(f'Suorakulmion piiri on: {p:.2f} ja pinta-ala {(a*b):.2f}')
 
+
+
 # tehtävä 6
 
 luku = random.randint(0,9)
