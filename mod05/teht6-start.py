@@ -9,6 +9,7 @@ counter = 0
 
 while counter < N:
     counter += 1
+    # arvotaan satunnainen piste välillä -1,-1 ja 1,1
     x = random.uniform(-1,1)
     y = random.uniform(-1,1)
     print(f"{counter}. arvotun pisteen koordinaatit, x: {x}, y: {y}")
