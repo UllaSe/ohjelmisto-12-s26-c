@@ -52,6 +52,7 @@ print('TOoisen koiran rotu:', koira2.rotu)
 # - Syö
 # - Nuku
 
+
 class Koira:
 
     # Luokkamuuttuja
@@ -96,16 +97,61 @@ print(f'2. koiran nimi on {koira2.nimi} ja rotu {koira2.rotu}')
 #         "inventory": {"map", "knife"}
 #     },
 #     {
-#         "name": "Player 2",
+#         "name": "c",
 #         "skill_level": 20,
 #         "inventory": {"axe"}
 #     }
 # ]
 
+
 # for player in players:
 #     print(f"Pelaajan {player['name']} taitotaso on {player['skill_level']}, hallussa:")
 #     for item in player["inventory"]:
 #         print(f"- {item}")
+
+
+print()
+print('----------')
+
+info = 'Pelaajan tiedot'
+
+class Player:
+    def __init__(self, name, skill_level, inventory):
+
+        # ominaisuus = parametrina tullut arvo
+        self.name = name
+        self.skill_level = skill_level
+        self.inventory = inventory
+
+    def show_info(self):
+        print(info)
+        print('Pelaajan nimi:', self.name)
+        print('Taso:', self.skill_level)
+        print('Inventaario:')
+        for item in self.inventory:
+            print('>',item)
+        print('------')
+
+    def add_item(self, item):
+        self.inventory.add(item)
+
+
+player1 = Player('Ulla', 10, {"map", "knife","hammer"})
+player2 = Player('Matti', 20, {"axe"} )
+
+player1.show_info()
+# player2.show_info()
+
+player1.add_item("key")
+player1.show_info()
+
+
+
+
+# pelaajan tiedot
+# print(f'Pelaajan 1 nimi on {player1.name} ja taso on {player1.skill_level}')
+
+
 
 ### Miten tämä edellinen voitaisiin kuvata luokkana
 ### Esim. PELAAJA
