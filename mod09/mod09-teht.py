@@ -85,8 +85,15 @@ print()
 koira3.hauku(1)
 
 
+
+
 print(f'1. koiran nimi on {koira.nimi} ja rotu {koira.rotu}, vuosi {koira.syntymävuosi}')
 print(f'2. koiran nimi on {koira2.nimi} ja rotu {koira2.rotu}')
+koira = koira2
+print(f'1. koiran nimi on {koira.nimi} ja rotu {koira.rotu}, vuosi {koira.syntymävuosi}')
+print(koira)
+
+
 
 # print(koira) - viittaus olioon, ei muuttuja
 
@@ -146,13 +153,8 @@ player1.add_item("key")
 player1.show_info()
 
 
-
-
 # pelaajan tiedot
 # print(f'Pelaajan 1 nimi on {player1.name} ja taso on {player1.skill_level}')
 
 
-
-### Miten tämä edellinen voitaisiin kuvata luokkana
-### Esim. PELAAJA
 
