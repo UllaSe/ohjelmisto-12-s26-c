@@ -16,8 +16,8 @@ with open("mod13/data.txt", "r") as mun_data_tiedosto:
     mun_data = mun_data_tiedosto.readlines()
     print("tiedoston data:", mun_data)
 
-# pelaajan tietojen tallennus (suoraan matskusta)
 
+# pelaajan tietojen tallennus (suoraan matskusta)
 import json
 
 pelaajan_tiedot = {
@@ -32,5 +32,6 @@ with open("mod13/save.json", "w") as tiedosto:
 with open("mod13/save.json", "r") as tiedosto:
     data_luettu = json.load(tiedosto)
 print(f"Pelaaja: {data_luettu['pelaaja']}, taso: {data_luettu['taso']}, varusteet: {data_luettu['varusteet']}")
+
 
 
