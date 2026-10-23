@@ -1,0 +1,15 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.grid-item {
+  padding: 20px;
+  background-color: lightgreen;
+  border: 1px solid #333;
+}
+
+@media (max-width: 600px) {
+  .grid-container { grid-template-columns: 1fr; }
+}

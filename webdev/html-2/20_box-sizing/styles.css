@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+.box {
+  width: 200px;
+  padding: 20px;
+  border: 4px solid black;
+  margin: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: lightblue;
+}
+
+#red-box {
+  background-color: red;
+}

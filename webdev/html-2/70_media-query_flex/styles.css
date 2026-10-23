@@ -1,0 +1,14 @@
+.flex-container {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  padding: 20px;
+  background-color: peachpuff;
+  border: 1px solid #333;
+}
+
+@media (max-width: 600px) {
+  .flex-container { flex-direction: column; }
+}
