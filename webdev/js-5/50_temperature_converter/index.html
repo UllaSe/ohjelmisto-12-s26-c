@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>50_temperature_converter</title>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Example</h1>
+  <h2>Temperature converter</h2>
+  <form id="converter">
+    <label for="temperature">Temperature:</label>
+    <input id="temperature" type="number" step="any"/>
+    <label for="direction">Convert:</label>
+    <select id="direction">
+      <option value="c-to-f">Celsius to Fahrenheit</option>
+      <option value="f-to-c">Fahrenheit to Celsius</option>
+    </select>
+    <button type="submit">Convert</button>
+  </form>
+  <p id="result"></p>
+</body>
+</html>

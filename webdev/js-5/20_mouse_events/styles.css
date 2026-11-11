@@ -1,0 +1,12 @@
+#trigger {
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+#trigger:hover {
+  background-color: lightgray;
+}
+
+.active {
+  font-weight: bold;
+}
